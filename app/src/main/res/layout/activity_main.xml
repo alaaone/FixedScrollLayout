@@ -1,0 +1,48 @@
+<com.github.dubulee.fixedscrolllayout.FixedScrollLayout
+    android:id="@+id/scrollable_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:scrollable_maxScroll="200dp"
+    app:scrollable_considerIdleMillis="125"
+    app:scrollable_friction="0.075"
+    app:scrollable_closeUpAnimationMillis="250"
+    app:scrollable_defaultCloseUp="true"
+    app:scrollable_scrollerFlywheel="false"
+    app:scrollable_closeUpAnimatorInterpolator="@android:anim/accelerate_decelerate_interpolator">
+
+    <RelativeLayout
+        android:id="@+id/layout_base"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright">
+
+        <RelativeLayout
+            android:id="@+id/layout_view"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:gravity="start|center_vertical"
+            android:text="Header Layout"
+            android:textSize="20dp"/>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/layout_view"/>
+    </RelativeLayout>
+
+
+
+    <!-- Contents 영역 -->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        app:layout_behavior="com.github.dubulee.coordinatorlayouthelper.ContentsLayoutBehavior"/>
+
+</com.github.dubulee.fixedscrolllayout.FixedScrollLayout>
