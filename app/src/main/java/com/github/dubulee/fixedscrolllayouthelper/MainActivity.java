@@ -10,6 +10,7 @@ import android.widget.RelativeLayout;
 
 import com.github.dubulee.fixedscrolllayout.CanScrollVerticallyDelegate;
 import com.github.dubulee.fixedscrolllayout.FixedScrollLayout;
+import com.github.dubulee.fixedscrolllayout.FixedScrollLayoutBaseFragment;
 import com.github.dubulee.fixedscrolllayout.OnScrollChangedListener;
 
 import java.util.ArrayList;

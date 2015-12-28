@@ -9,6 +9,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.github.dubulee.fixedscrolllayout.FixedScrollLayoutBaseFragment;
+
 import java.util.ArrayList;
 import java.util.List;
 

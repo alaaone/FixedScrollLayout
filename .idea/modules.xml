@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/FixedScrollLayoutHelper.iml" filepath="$PROJECT_DIR$/FixedScrollLayoutHelper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FixedScrollLayout.iml" filepath="$PROJECT_DIR$/FixedScrollLayout.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/fixedscrolllayout/fixedscrolllayout.iml" filepath="$PROJECT_DIR$/fixedscrolllayout/fixedscrolllayout.iml" />
     </modules>

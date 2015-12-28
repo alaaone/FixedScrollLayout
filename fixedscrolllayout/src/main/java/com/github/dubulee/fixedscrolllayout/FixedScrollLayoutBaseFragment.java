@@ -1,8 +1,6 @@
-package com.github.dubulee.fixedscrolllayouthelper;
+package com.github.dubulee.fixedscrolllayout;
 
 import android.support.v4.app.Fragment;
-
-import com.github.dubulee.fixedscrolllayout.CanScrollVerticallyDelegate;
 
 /**
  * FixedScrollLayoutBaseFragment.java
