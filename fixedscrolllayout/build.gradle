@@ -2,7 +2,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'com.novoda.bintray-release'
 android {
     compileSdkVersion 23
-    buildToolsVersion "23.0.2"
+    buildToolsVersion "22.0.1"
 
     defaultConfig {
         minSdkVersion 14
@@ -31,7 +31,7 @@ publish {
     userOrg = 'dubulee'
     groupId = 'com.github.dubulee'
     artifactId = 'fixedscrolllayout'
-    publishVersion = '0.1.0'
+    publishVersion = '0.1.1'
     desc = 'android custom scroll layout (like. CoordinatorLayoutHelper Lib. , Collapse Toolbar Layout)'
     website = 'https://github.com/DUBULEE/FixedScrollLayout'
     issueTracker = "${website}/issues"
