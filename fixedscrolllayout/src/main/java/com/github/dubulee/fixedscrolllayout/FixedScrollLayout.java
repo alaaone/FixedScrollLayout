@@ -19,8 +19,8 @@ import android.view.animation.Interpolator;
 import android.widget.FrameLayout;
 /**
  * FixedScrollLayout.java
- * Created by DUBULEE on 2015/12/28.
- * Copyright (c) DUBULEE. All rights reserved.
+ * Created by mugku on 2015/12/28.
+ * Copyright (c) mugku. All rights reserved.
  */
 public class FixedScrollLayout extends FrameLayout {
 
